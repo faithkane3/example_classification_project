@@ -3,11 +3,12 @@
 
 
 #### Project Goals
-
+The goal of this project is to find features that can accurately predict the species of an iris when utilzed in a classification machine learning model.
 
 #### Project Deliverables
->- A final report notebook 
+> - A final report notebook 
 > - A final report notebook presentation
+> - All necessary modules to make my project reproducible
 > - [Tableau Public Workbook]()
 
 #### Project Context
@@ -28,26 +29,25 @@
 | sepal_length       | 150 non-null: float64 |    iris sepal length in cm |
 | sepal_width        | 150 non-null: float64 |    iris sepal width in cm |
 
-
-#### Project Planning
+### Pipeline Stages Breakdown
+##### **Planning ->** Acquire -> Prepare -> Explore -> Model -> Deliver
 > - Initial Hypotheses
 
 
-### Pipeline Stages Breakdown
+##### Planning -> **Acquire ->** Prepare -> Explore -> Model -> Deliver
+> - 
 
-#### **Acquire ->** Prepare -> Explore -> Model -> Deliver
+##### Planning -> Acquire -> **Prepare ->** Explore -> Model -> Deliver
+> - 
 
+##### Planning -> Acquire -> Prepare -> **Explore ->** Model -> Deliver
+> - 
 
-#### Acquire -> **Prepare ->** Explore -> Model -> Deliver
+##### Planning -> Acquire -> Prepare -> Explore -> **Model ->** Deliver
+> - 
 
-
-#### Acquire -> Prepare -> **Explore ->** Model -> Deliver
-
-
-#### Acquire -> Prepare -> Explore -> **Model ->** Deliver
-
-
-#### Acquire -> Prepare -> Explore -> Model -> **Deliver**
+##### Planning -> Acquire -> Prepare -> Explore -> Model -> **Deliver**
+> - 
 
 ### Reproduce My Project
 You will need your own env file with database credentials along with all the necessary files listed below to run my final project notebook. 

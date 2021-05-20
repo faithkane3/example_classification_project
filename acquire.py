@@ -54,3 +54,38 @@ def get_iris_data():
         df.to_csv('iris_df.csv')
         
     return df
+
+#################### Summarize Iris Data ##########################
+
+def object_vals(df):
+    '''
+    This is a helper function for viewing the value_counts for object cols.
+    '''
+    for col in df.columns:
+        if df[col].dtype == 'object':
+            print(df[col].value_counts(dropna=False))
+
+def col_range(df):
+    stats_df = df.describe().T
+    stats_df['range'] = stats_df['max'] - stats_df['min']
+    return stats_df
+
+    
+def summarize_df(df):
+    '''
+    This function returns the shape, info, a preview, the value_counts of object columns
+    and the summary stats for numeric columns.
+    '''
+    print(f'This dataframe has {df.shape[0]} rows and {df.shape[1]} columns.')
+    print('------------------------')
+    print('')
+    print(df.info())
+    print('------------------------')
+    print('')
+    print(df.head())
+    print('------------------------')
+    print('')
+    object_vals(df)
+    print('------------------------')
+    print('')
+    print(col_range(df))
