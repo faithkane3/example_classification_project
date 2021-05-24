@@ -1,6 +1,6 @@
 ## In the Iris of the Beholder - Example Classification Project
 
-<img src="https://i.pinimg.com/564x/65/10/03/651003b574fe55ba847646b883064ff3.jpg" alt="Iris" title="Iris Dataset" width="550" height="100" />
+<img src="https://i.pinimg.com/564x/65/10/03/651003b574fe55ba847646b883064ff3.jpg" alt="Iris" title="Iris Dataset" width="500" height="200" />
 
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
@@ -26,6 +26,7 @@
 > - A final report notebook 
 > - A final report notebook presentation
 > - All necessary modules to make my project reproducible
+> - A csv file of 
 > - [Tableau Public Workbook]()
 
 #### Project Context
