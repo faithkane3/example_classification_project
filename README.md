@@ -26,7 +26,7 @@
 > - A final report notebook 
 > - A final report notebook presentation
 > - All necessary modules to make my project reproducible
-> - A csv file of 
+> - A csv file of prediction probabilities and actual values for species.
 > - [Tableau Public Workbook]()
 
 #### Project Context
@@ -47,6 +47,28 @@
 | sepal_length       | 150 non-null: float64 |    iris sepal length in cm |
 | sepal_width        | 150 non-null: float64 |    iris sepal width in cm |
 
+
+#### Initial Hypotheses
+
+> - **Hypothesis 1 -** I rejected the Null Hypothesis; there is a difference.
+> - alpha = .05
+> - $H_0$: Sepal length is the same in virginica and versicolor. $\mu_{virginica} == \mu_{versicolor}$.  
+> - $H_a$: Sepal length significantly different in virginica and versicolor. $\mu_{virginica} != \mu_{versicolor}$. 
+
+> - **Hypothesis 2 -** I rejected the Null Hypothesis; there is a difference.
+> - alpha = .05
+> - $H_0$: Sepal width is the same in virginica and versicolor. $\mu_{virginica} == \mu_{versicolor}$.  
+> - $H_a$: Sepal width significantly different in virginica and versicolor. $\mu_{virginica} != \mu_{versicolor}$. 
+
+<hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
+
+### Executive Summary - Conclusions & Next Steps
+<hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
+
+> - I found that all of the classification models I created, LogisticRegression, DecisionTree, RandomForest, and KNeighbors predicted the species of Iris equally well using the features `sepal_width`, `sepal_length`, `petal_length`, `petal_width`.
+> - I chose my DecisionTree model as my best model with a 90% accuracy rate for predicting my target value, species. This model outperformed my baseline score of 33% accuracy, so it's has value.
+> - Some initial exploration and statistical testing revealed that engineering some new features like petal area or sepal area might help my models predict with even more accuracy, and with more time, I would like to test that hypothesis.
+
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
 ### Pipeline Stages Breakdown
@@ -62,6 +84,7 @@
 - [x] Train three different classification models.
 - [x] Evaluate models on train and validate datasets.
 - [x] Choose the model with that performs the best and evaluate that single model on the test dataset.
+- [x] Create csv file with the measurement id, the probability of the target values, and the model's prediction for each observation in my test dataset.
 - [x] Document conclusions, takeaways, and next steps in the Final Report Notebook.
 
 ___

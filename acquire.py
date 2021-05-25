@@ -19,6 +19,7 @@ def new_iris_data():
     '''
     sql_query = """
                 SELECT 
+                    m.measurement_id,
                     s.species_id,
                     s.species_name,
                     m.sepal_length,
