@@ -15,19 +15,16 @@
 > - Answer panel questions about your code, process, findings and key takeaways, and model.
 
 #### Business Goals
-> - Find drivers for customer churn at Telco.
-> - Construct a ML classification model that accurately predicts customer churn.
+> - Construct a ML classification model that accurately predicts Iris species.
 > - Document your process well enough to be presented or read like a report.
 
 #### Audience
-> - Codeup Data Science team
+> - Codeup Data Science students
 
 #### Project Deliverables
 > - A final report notebook 
 > - A final report notebook presentation
 > - All necessary modules to make my project reproducible
-> - A csv file of prediction probabilities and actual values for species.
-> - [Tableau Public Workbook]()
 
 #### Project Context
 > - The Iris dataset I'm using came from the Codeup database.
